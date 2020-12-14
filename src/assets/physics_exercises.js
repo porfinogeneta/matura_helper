@@ -2344,8 +2344,8 @@ answer: 'http://www.voltwo.webd.pl//matura/fizyka/2014-12-probna-CKE/odpowiedzi-
 {
 name: '3/2 Sztuczny satelita porusza się',
 otw_zam: false,
-exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2014/fizyka_PP_A1.pdf',
-answer: 'http://www.voltwo.webd.pl//matura/fizyka/2014/fizyka_PP_A1.pdf'
+exercise: 'http://www.voltwo.webd.pl/matura/fizyka/2014-11-OPERON/Matura2014_Fizyka_NOWA_MATURA_PR_arkusz.pdf',
+answer: 'http://www.voltwo.webd.pl/matura/fizyka/2014-11-OPERON/Matura2014_Fizyka_NOWA_MATURA_PR_klucz.pdf'
 },
 {
 name: '4/4 Ciału o masie m = 10 kg',
@@ -2396,7 +2396,7 @@ exercise: 'http://www.voltwo.webd.pl//matura/fizyka/PWN/fizyka-PWN-P.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/PWN/fizyka-PWN-P-ODP.pdf'
 },
 {
-name: '144/13 Ziemia i Księżyc',
+name: '6/13 Ziemia i Księżyc',
 otw_zam: true,
 exercise: 'http://www.voltwo.webd.pl//matura/fizyka/PWN/fizyka-PWN-P.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/PWN/fizyka-PWN-P-ODP.pdf'
