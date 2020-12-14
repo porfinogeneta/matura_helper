@@ -1,13 +1,19 @@
 <template>
   <div :class="{'--otw_zam': ExerciseParameters.otw_zam === true,  'done': ExerciseDone === true}" class="wrapper">
-    <div class="exercises"
-         @click="MoveWebsite(ExerciseParameters.exercise, ExerciseParameters.answer)"
-         >
-      {{ ExerciseParameters.name }}
+    <div>
+      <div class="exercises" @click="MoveWebsiteEx(ExerciseParameters.exercise)">
+        {{ ExerciseParameters.name }}
+      </div>
+      <div class="answer" @click="MoveWebsiteEx(ExerciseParameters.answer)">
+        Odpowiedź
+      </div>
     </div>
-    <div class="answer">
-      <input class="checkbox" type="checkbox" @change="ChangeIfDone">
-    </div>
+
+
+
+<!--    <div class="answer">-->
+<!--      <input class="checkbox" type="checkbox" @change="ChangeIfDone">-->
+<!--    </div>-->
   </div>
 </template>
 
@@ -31,19 +37,25 @@ name: "ExerComponentList",
 
       console.log(this.ExerciseDone)
     },
-    MoveWebsite(question, answer) {
-      window.open(`${question}`, "one");
-      setTimeout(function(){
-        window.open(`${answer}`, "two");
-      }, 500);
-    }
+    MoveWebsiteEx(answer) {
+      window.open(answer, '_blank');
+      console.log(answer)
+    },
+    // MoveWebsiteAns(answer) {
+    //   window.open(answer, "_blank");
+    //   console.log(answer)
+    // },
+    // handler:function(arg1,arg2){
+    //   this.MoveWebsiteEx(arg1);
+    //   this.MoveWebsiteAns(arg2);
+    // }
   }
 }
 </script>
 
 <style scoped lang="scss">
   .wrapper {
-    background: #1003b3;
+    background: #0e038f;
     display: inline-grid;
     grid-template-columns: max-content 1fr 1fr 1fr;
     grid-template-rows: 1fr max-content;
@@ -79,7 +91,16 @@ name: "ExerComponentList",
     }
     .answer {
       color: #f5f1f1;
-      margin: 0;
+      margin-bottom: 0;
+      height: 7vh;
+      width: 60vh;
+      background-color: #2c5ad7;
+      font-weight: bold;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid #d0cfcf 2px;
 
       .checkbox {
         width: 20px;

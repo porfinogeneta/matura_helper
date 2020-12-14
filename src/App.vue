@@ -4,7 +4,7 @@
       <div class="home_button">
         <router-link to="/">Strona Głowna</router-link>
       </div>
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">O stronie</router-link>
     </div>
     <router-view/>
   </div>

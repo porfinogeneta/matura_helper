@@ -11,6 +11,7 @@
         </option>
       </select>
     </form>
+    <div class="instruction">strona / numer zadania |  Polecenie</div>
     <div v-if="state.selectedPhysicsModule">
       <list_of_exercises :what_exercises="state.selectedPhysicsModule"/>
     </div>
@@ -27,7 +28,7 @@ export default {
   components: {list_of_exercises},
   setup() {
     const state = reactive({
-      selectedPhysicsModule: '',
+      selectedPhysicsModule: 'kinematyka_wektory',
     })
     return {
       state,
@@ -47,6 +48,10 @@ export default {
       font-size: 30px;
       color: white;
     }
+  }
+  .instruction {
+    font-size: 20px;
+    color: #022b57;
   }
 
 </style>

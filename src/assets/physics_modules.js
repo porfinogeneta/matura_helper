@@ -1,4 +1,5 @@
 export const modules = [
+
     {
         value: 'kinematyka_wektory',
         name: 'Kinematyka, wektory'

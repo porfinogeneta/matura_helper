@@ -1,3 +1,5 @@
+
+
 export const kinematyka_wektory = [
 {
 name: '2/1 Po rzece płynie motorówka1',
