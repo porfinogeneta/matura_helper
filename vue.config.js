@@ -6,5 +6,5 @@ module.exports = {
             }
         }
     },
-    publicPath: '/matura_helper/'
+      publicPath: '/',
 }
