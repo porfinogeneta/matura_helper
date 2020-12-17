@@ -50,11 +50,13 @@ export default {
       justify-content: space-around;
       align-items: center;
       color: black;
+      border-radius: 7px 7px 7px 7px;
 
       &:hover {
         cursor: pointer;
         color: #f5f1f1;
         background: #1e00be;
+        box-shadow: #2600ff 2px 2px 2px 2px;
       }
     }
 
