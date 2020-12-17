@@ -6,5 +6,7 @@ module.exports = {
             }
         }
     },
-      publicPath: './matura_helper',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/matura_helper/'
+    : '/'
 }
