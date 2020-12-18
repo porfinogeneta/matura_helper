@@ -4,7 +4,7 @@
       <h1>Wybierz dział z fizyki</h1>
     </div>
     <form class="choosePhysicsModule">
-      <label for="selectedPhysicsModule">Wybierz dział, który Cię interesuje: </label>
+      <label style="font-weight: bold" for="selectedPhysicsModule">Wybierz dział, który Cię interesuje: </label>
       <select class="select_Module" id="selectedPhysicsModule" v-model="state.selectedPhysicsModule">
         <option :value="option.value" v-for="(option, index) in modules" :key="index">
           {{option.name}}
@@ -50,7 +50,8 @@ export default {
     }
   }
   .instruction {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
     color: #022b57;
   }
 

@@ -9,12 +9,8 @@
       </div>
     </div>
 
-
-
-<!--    <div class="answer">-->
-<!--      <input class="checkbox" type="checkbox" @change="ChangeIfDone">-->
-<!--    </div>-->
   </div>
+
 </template>
 
 <script>
@@ -54,58 +50,53 @@ name: "ExerComponentList",
 </script>
 
 <style scoped lang="scss">
-  .wrapper {
-    background: #0e038f;
-    display: inline-grid;
-    grid-template-columns: max-content 1fr 1fr 1fr;
-    grid-template-rows: 1fr max-content;
-    //margin: 20px 20px 20px 20px;
-    justify-content: center;
-    align-items: center;
+.wrapper {
+  position: relative;
+  background: #0e038f;
+  display: inline-grid;
+  grid-template-columns: 70vh;
+  grid-template-rows: 30vh;
+  font-size: 30px;
 
-    &.--otw_zam {
-      background: #022b57;
-    }
-
-   &.done {
-      transform: scale(0.900);
-      opacity: 0.8;
-    }
-
-    &:hover {
-      cursor: pointer;
-      transform: scale(1.007);
-      background-color: #3b03a1;
-      transition: background-color .5s;
-    }
-
-    .exercises{
-      color: #f5f1f1;
-      font-weight: bold;
-      font-size: 20px;
-      height: 30vh;
-      width: 60vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .answer {
-      color: #f5f1f1;
-      margin-bottom: 0;
-      height: 7vh;
-      width: 60vh;
-      background-color: #2c5ad7;
-      font-weight: bold;
-      font-size: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: solid #d0cfcf 2px;
-
-      .checkbox {
-        width: 20px;
-        height: 20px;
-      }
-    }
+  &.--otw_zam {
+    background: #022b57;
   }
+ &.done {
+    transform: scale(0.900);
+    opacity: 0.8;
+  }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.007);
+    background-color: #3b03a1;
+    transition: background-color .5s;
+  }
+  .exercises{
+    //display: flex;
+    //justify-content: center;
+    align-items: center;
+    color: #f5f1f1;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+
+  }
+  .answer {
+    color: #f5f1f1;
+    height: 7vh;
+    width: 70vh;
+    background-color: #2c5ad7;
+    font-weight: bold;
+    //font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    border: solid #d0cfcf 2px;
+  }
+}
+
+
 </style>
