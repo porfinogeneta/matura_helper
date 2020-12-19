@@ -785,7 +785,7 @@ exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2014-03-20-ZAMKOR/podstawowy
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2014-03-20-ZAMKOR/odp-podstawowy.pdf'
 },
 {
-name: '195/1 Linia technologiczna z. 5 z 52',
+name: '2/1 Linia technologiczna',
 otw_zam: true,
 exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf'
@@ -1553,7 +1553,7 @@ exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2014/fizyka_PR_A1.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2014/fizyka_PR_A1_moje_rozwiazania.pdf'
 },
 {
-name: '195/1 Linia technologiczna z. 4 z 5',
+name: '2/1 Linia technologiczna z. 4 z 5',
 otw_zam: false,
 exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf'
@@ -2069,7 +2069,7 @@ exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2014/fizyka_PP_A1.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2014/fizyka_PP_A1.pdf'
 },
 {
-name: '194/1 Linia technologiczna z. 1-2 z 5',
+name: '2/1 Linia technologiczna',
 otw_zam: true,
 exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf'

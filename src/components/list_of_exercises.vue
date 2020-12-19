@@ -130,7 +130,7 @@ name: "list_of_exercises",
             this.ex = kinematyka_wektory;
             break;
           }
-        console.log(this.ex)
+        // this.ex = []
         },
       }
 
