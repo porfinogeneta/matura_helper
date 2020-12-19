@@ -1,4 +1,5 @@
 # matura_helper
+Project of website build for learning Physics.
 
 ## Project setup
 ```
