@@ -200,7 +200,7 @@ exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2014-03-20-ZAMKOR/podstawowy
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2014-03-20-ZAMKOR/odp-podstawowy.pdf'
 },
 {
-name: '2/1 Linia technologiczna z. 3 z 52',
+name: '2/1 Linia technologiczna',
 otw_zam: true,
 exercise: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf',
 answer: 'http://www.voltwo.webd.pl//matura/fizyka/2015-nieznany/jakis-arkusz-PR.pdf'
