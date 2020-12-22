@@ -14,12 +14,39 @@
 <script>
 import ExerComponentList from "@/components/ExerComponentList";
 
-import { kinematyka_wektory, Dynamikasilypracamocenergia, Rzutywpolugrawitacyjnym, PędZasadazachowaniapędu, Ruchjednostajnypookręgu,
-        Ruchobrotowybryłysztywnejmomentsiły, Polegrawitacyjne, Hydrostatyka, Gazy, Termodynamika, Prądstaly,
-      Indukcjaelektromagnetyczna, Prądzmienny, DrganiaSprężystośćciał, Falemechaniczne, Akustyka, Optykageometryczna,
-      OptykafizycznaFaleelektromagnetyczne, Atomwodoru, ZjawiskofotoelektryczneDualizmkorpuskularnofalowy, Fizykajądrowa,
-        Teoriawzględności, Astronomia, Inne, Elektrostatyka, Magnetyzm}
-        from "@/assets/physics_exercises";
+// import { Rzutywpolugrawitacyjnym, PędZasadazachowaniapędu, Ruchjednostajnypookręgu,
+//         Ruchobrotowybryłysztywnejmomentsiły, Polegrawitacyjne, Hydrostatyka, Gazy, Termodynamika, Prądstaly,
+//       Indukcjaelektromagnetyczna, Prądzmienny, DrganiaSprężystośćciał, Falemechaniczne, Akustyka, Optykageometryczna,
+//       OptykafizycznaFaleelektromagnetyczne, Atomwodoru, ZjawiskofotoelektryczneDualizmkorpuskularnofalowy, Fizykajądrowa,
+//         Teoriawzględności, Astronomia, Inne, Elektrostatyka, Magnetyzm}
+//         from "@/assets/physics_exercises.js";
+
+import kinematyka_wektory from "@/assets/kinematyka_wektory.json"
+import Dynamikasilypracamocenergia from "@/assets/Dynamikasilypracamocenergia.json"
+import Rzutywpolugrawitacyjnym from "@/assets/Rzutywpolugrawitacyjnym.json"
+import PędZasadazachowaniapędu from "@/assets/PędZasadazachowaniapędu.json"
+import Ruchjednostajnypookręgu from "@/assets/Ruchjednostajnypookręgu.json"
+import Ruchobrotowybryłysztywnejmomentsiły from "@/assets/Ruchobrotowybryłysztywnejmomentsiły.json"
+import Polegrawitacyjne from "@/assets/Polegrawitacyjne.json"
+import Hydrostatyka from "@/assets/Hydrostatyka.json"
+import Gazy from "@/assets/Gazy.json"
+import Termodynamika from "@/assets/Termodynamika.json"
+import Prądstaly from "@/assets/Prądstaly.json"
+import Indukcjaelektromagnetyczna from "@/assets/Indukcjaelektromagnetyczna.json"
+import Prądzmienny from "@/assets/Prądzmienny.json"
+import DrganiaSprężystośćciał from "@/assets/DrganiaSprężystośćciał.json"
+import Falemechaniczne from "@/assets/Falemechaniczne.json"
+import Akustyka from "@/assets/Akustyka.json"
+import Optykageometryczna from "@/assets/Optykageometryczna.json"
+import OptykafizycznaFaleelektromagnetyczne from "@/assets/OptykafizycznaFaleelektromagnetyczne.json"
+import Atomwodoru from "@/assets/Atomwodoru.json"
+import ZjawiskofotoelektryczneDualizmkorpuskularnofalowy from "@/assets/ZjawiskofotoelektryczneDualizmkorpuskularnofalowy.json"
+import Fizykajądrowa from "@/assets/Dynamikasilypracamocenergia.json"
+import Teoriawzględności from "@/assets/Teoriawzględności.json"
+import Astronomia from "@/assets/Astronomia.json"
+import Inne from "@/assets/Inne.json"
+import Elektrostatyka from "@/assets/Elektrostatyka.json"
+import Magnetyzm from "@/assets/Magnetyzm.json"
 
 
 export default {
